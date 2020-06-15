@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+body{
+  background-color: azure;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+}
+h1{
+  background-color: #0000ff;
+  color:#000000;
+  padding-top: 10px;
+  padding-left: 1000px;
+  padding-right: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.header h1{
+
+  text-align: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  
+}
+.intro h1{
+  text-align: center;
+ 
+  padding-bottom: 50px;
+  
+ 
+  border: solid;
+}
+ .item{
+  position: relative;
+}
+.item p{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  opacity: 0;
+}
+
+
+ .item:hover p{
+   opacity: 1;
+ }
+
+ .item:hover img{
+   opacity: 0.33;
+ }
+
+ .house img{
+  position: fixed;
+  top: 5%;
+  left: 1%;
+ }
+
+ .attend h3{
+  position:relative;
+  left: 15%;
+  top: 40%;
+ }
+
+ .logo h2{
+  color: #000000;
+  background-color: blue;
+  color: aliceblue;
+  margin-top: 100px;
+ }
+
+ .attend1 h3{
+  position:relative;
+  left: 25%;
+  top: 40%;
+ }
+
+ .attend2 h3{
+  position:fixed;
+  left: 35%;
+  top: 40%;
+ }
+
+ .attend3 h3{
+   position: fixed;
+   left: 45%;
+   top: 40%;
+ }
+
+ .attend4 h3{
+  position: fixed;
+  left: 55%;
+  top: 40%;
+ }
+
+ .attend5 h3{
+  position: fixed;
+  left: 65%;
+  top: 40%;
+ }
+
+ 
+
+ .attens h3{
+  color: #ff0000;;
+  position: fixed;
+  left: 5%;
+  top: 40%;
+ }
+
+ .house p{
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  transform: translate(90%,200%);
+  color:#000000;
+  opacity: 0;
+  font-size: 10px;
+ }
+
+ .house:hover p{
+  opacity:1;
+ }
